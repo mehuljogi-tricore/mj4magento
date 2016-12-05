@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <modules>
+            <MJ4_MJCheckout>
+                <version>0.1.0</version>
+            </MJ4_MJCheckout>
+        </modules>
+        <blocks>
+            <mjcheckout>
+				<class>MJ4_MJCheckout_Block</class>
+            </mjcheckout>
+        </blocks>
+
+    </global>
+    
+    <frontend>
+        <routers>
+            <mjcheckout>
+                <use>standard</use>
+                <args>
+                    <module>MJ4_MJCheckout</module>
+                    <frontName>mjcheckout</frontName>
+                </args>
+            </mjcheckout>
+        </routers>
+    </frontend>
+</config>

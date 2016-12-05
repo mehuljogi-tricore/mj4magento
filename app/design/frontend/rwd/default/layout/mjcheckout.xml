@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<layout version="0.1.0">
+
+    <mjcheckout_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+        <reference name="content">
+			<block type="mjcheckout/checkin" name="block_checkin" template="mjcheckout/mehul.phtml" />
+			<block type="mjcheckout/mehul" name="block_mehul" template="mjcheckout/mehul.phtml" />
+            <block type="mjcheckout/family" name="block_family" template="mjcheckout/family.phtml" />
+        </reference>
+    </mjcheckout_index_index>
+
+</layout>

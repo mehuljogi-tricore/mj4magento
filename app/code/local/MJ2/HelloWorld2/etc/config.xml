@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <modules>
+            <MJ2_HelloWorld2>
+                <version>0.1.0</version>
+            </MJ2_HelloWorld2>
+        </modules>
+        <blocks>
+            <helloworld2>
+                <rewrite>
+                    <helloworld2>MJ2_HelloWorld2_Block_HelloWorld2</helloworld2>
+                </rewrite>
+            </helloworld2>
+        </blocks>
+
+    </global>
+    
+    <frontend>
+        <routers>
+            <helloworld2>
+                <use>standard</use>
+                <args>
+                    <module>MJ2_HelloWorld2</module>
+                    <frontName>helloworld2</frontName>
+                </args>
+            </helloworld2>
+        </routers>
+        <layout>
+            <updates>
+                <helloworld2>
+                    <file>helloworld.xml</file>
+                </helloworld2>
+            </updates>
+        </layout>
+    </frontend>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MJ2_HelloWolrd2>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MJ2_HelloWolrd2>
+    </modules>
+</config>

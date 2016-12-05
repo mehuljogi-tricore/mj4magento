@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<config>
+    <global>
+        <modules>
+            <MJ_HelloWorld>
+                <version>0.1.0</version>
+            </MJ_HelloWorld>
+        </modules>
+        <blocks>
+            <helloworld>
+				<class>MJ_HelloWorld_Block</class>
+            </helloworld>
+        </blocks>
+    </global>
+    
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>MJ_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+        <layout>
+            <updates>
+                <helloworld>
+                    <file>mjcheckout.xml</file>
+                </helloworld>
+            </updates>
+        </layout>
+    </frontend>
+</config>

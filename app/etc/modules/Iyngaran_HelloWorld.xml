@@ -1,0 +1,10 @@
+<?xml version=”1.0″?>
+
+<config>
+    <modules>
+        <Iyngaran_HelloWorld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Iyngaran_HelloWorld>
+    </modules>
+</config>

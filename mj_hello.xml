@@ -1,0 +1,16 @@
+<config>
+    <modules>
+        <mj_hello>
+            <active>true</active>
+            <codePool>local</codePool>
+        </mj_hello>
+    </modules>
+</config>
+<config>
+    <modules>
+        <mj_hello>
+            <active>true</active>
+            <codePool>local</codePool>
+        </mj_hello>
+    </modules>
+</config>
